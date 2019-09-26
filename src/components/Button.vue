@@ -1,5 +1,5 @@
 <template>
-  <button class="uk-button uk-button-primary">Button component</button>
+  <button class="uk-button uk-button-primary uk-margin-small">Button component</button>
 </template>
 
 <script>
@@ -8,6 +8,7 @@ export default {};
 
 <style lang="less" scoped>
 @import "../assets/less/_variables.less";
+
 .uk-button {
   border-radius: 3px;
   padding: 0 20px;

@@ -1,6 +1,18 @@
 @import '../../../node_modules/uikit/src/less/uikit.less';
+@import '../../../node_modules/vue-select/dist/vue-select.css';
 @import '_variables.less';
 
 body {
-    background: @global-background;
+  background: @global-background;
+}
+
+.uk-container {
+  .vs__dropdown-toggle {
+    border: 1px solid @global-green;
+  }
+  .vs--open {
+    .vs__dropdown-toggle {
+      border: 1px solid @global-blue;
+    }
+  }
 }
