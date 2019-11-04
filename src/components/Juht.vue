@@ -1,5 +1,5 @@
 <template>
-  <div class="uk-grid">
+  <div class="uk-grid juht-container">
     <div class="juht">
       <img src="../assets/svg/juht.svg" />
     </div>
@@ -20,21 +20,3 @@
 <script>
 export default {};
 </script>
-
-<style lang="less" scoped>
-@import "../assets/less/_variables.less";
-
-.juht {
-  img {
-    width: auto;
-    height: 90px;
-  }
-}
-
-img {
-  .icon {
-    width: auto;
-    height: 30px;
-  }
-}
-</style>

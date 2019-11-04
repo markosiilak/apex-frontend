@@ -15,12 +15,3 @@
     </div>
   </nav>
 </template>
-
-<style lang="less" scoped>
-  .logo {
-    img {
-      height: 30px;
-      width: auto;
-    }
-  }
-</style>
